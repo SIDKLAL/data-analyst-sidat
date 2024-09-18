@@ -148,15 +148,8 @@ Provided protection to the Dataset 'Property Tax Records" to provide access only
 
 To avoid accidental data deletion and multiple region accessbility, S3 Versioning and Cross-Region Replication is enabled.
 
-**8: Data Governance**
 
-Evaluation of Data sensitivity and quality using AWS Glue.
-
-QRPR Pipeline created to store protected and governed dataset into a new folder **Trusted**.
-
-![image](https://github.com/user-attachments/assets/39dba62c-0380-473d-984b-1f677bb0415c)
-
-**9: Data Monitoring**
+**8: Data Monitoring**
 
 **Tools:** AWS CloudWatch and AWS CloudTrail
 
