@@ -6,7 +6,7 @@
 
 **Dataset:** Property Tax Report
 
-Property Tax Report URL
+Property Tax Report URL: https://opendata.vancouver.ca/explore/dataset/property-tax-report/information/?sort=-tax_assessment_year&dataChart
 
 
 ## **Objectives:**
@@ -148,7 +148,7 @@ Provided protection to the Dataset 'Property Tax Records" to provide access only
 
 To avoid accidental data deletion and multiple region accessbility, S3 Versioning and Cross-Region Replication is enabled.
 
-**8:Data Governance**
+**8: Data Governance**
 
 Evaluation of Data sensitivity and quality using AWS Glue.
 
