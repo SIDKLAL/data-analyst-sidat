@@ -157,6 +157,7 @@ Real-Time Monitoring, Enhanced Security Monitoring, Historical Data Analysis con
 
 ## **Recommendation**
 
+To enhance the analysis and management of the Property Tax Records dataset, it is recommended to implement regular updates and reviews of the encryption and protection measures to address evolving security threats. Continuously monitor and adjust the data governance processes using AWS Glue DataBrew to refine data quality and adapt to any changes in data structure or quality issues. Incorporate more advanced visualizations and statistical analyses to uncover deeper insights and trends in property tax data. Additionally, set up automated alerts in AWS CloudWatch to proactively identify and respond to any anomalies or performance issues, ensuring that the dataset remains reliable and actionable for informed decision-making.
 
 
 ## **Tools and Techniques**
@@ -200,3 +201,8 @@ Real-Time Monitoring, Enhanced Security Monitoring, Historical Data Analysis con
 10- **Cross-Region Replication** for data availability
 
 These deliverables provide a comprehensive framework for analyzing property tax data, ensuring data is securely stored, processed, and published while maintaining integrity and availability.
+
+## **Conclusion**
+
+
+This data analytics initiative helps the City of Vancouver make informed decisions that support local businesses and residents. By analyzing trends in zoning classifications for properties, the city can refine urban planning, boost the local economy, improve public services, and promote sustainable development.
