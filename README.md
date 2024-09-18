@@ -13,6 +13,7 @@ Property Tax Report URL
 
 The Property Tax Data Analytical Platform project is designed to help analyze the property tax records for the City of Vancouver. The project is structured using AWS Services to perform data ingestion, storage, preparation, cleaning, transformation, and visualization tasks. It addresses four key analytical questions through descriptive, diagnostic, predictive, and prescriptive analysis.
 
+![image](https://github.com/user-attachments/assets/bf292cf9-d12b-4d0c-8d3f-98544a25c6b1)
 
 ## **Data Analytical Question Formulation**
 
@@ -73,6 +74,7 @@ To evaluate the property tax dataset, four types of analytical questions were fo
 
 **Subfolders:**2023, 2024, containing datasets like Property Tax Records, Municipal Financial Reports, Property Value Database, and Tax Payment Records.
 
+![image](https://github.com/user-attachments/assets/eccbe42b-a635-4972-b4ee-03be2ab08f8d)
 
 **2: Dataset Preparation**
 
@@ -87,7 +89,6 @@ Dropping less relevant columns (e.g., Land Coordinates, District Lot).
 Conversion of numerical data types to integers.
 
 Two DataBrew jobs were created: Proptax-Job-2023 and Proptax-Job-2024.
-
 
 
 **3: Data Ingestion, Storage, Pipeline Design, Cleaning, Pipeline Implementation.**
@@ -110,12 +111,15 @@ Final filtered data stored in the curated S3 folder in CSV format.
 
 The ETL Pipeline was implemented using AWS Glue, storing the cleaned datasets in the curated folder of the S3 bucket.
 
+![image](https://github.com/user-attachments/assets/b812e6b3-54e6-4546-bacc-4ebc2b5c3a66)
 
 **4: Data Structuring**
 
 **Tool:** AWS Athena
 
 Created a SQL-based table to store curated data and enable queries for further analysis.
+
+![image](https://github.com/user-attachments/assets/b67d4ae4-31f1-4763-923e-8305ce08d3fb)
 
 
 **5: Data Analysis and Visualization**
@@ -124,12 +128,17 @@ Extracted refined data from AWS Athena in CSV format.
 
 Visualization: Used Excel to create a pie chart, representing different property zoning types.
 
+![image](https://github.com/user-attachments/assets/cd43c588-b945-4ff3-aa84-4185aff43116)
 
 **6: Data Publishing**
 
 **General Server Setup:** Used EC2 to create a general server for internal team access.
 
+![image](https://github.com/user-attachments/assets/af5029db-afd2-4a1f-b167-8cc62f7814c1)
+
 **Web Server Setup:** Created a web server using an EC2 instance to publish data externally.
+
+![image](https://github.com/user-attachments/assets/3ca711d9-67d0-447f-89cc-dee8d4cefaa5)
 
 **7: Data Protection**
 
@@ -145,11 +154,15 @@ Evaluation of Data sensitivity and quality using AWS Glue.
 
 QRPR Pipeline created to store protected and governed dataset into a new folder **Trusted**.
 
+![image](https://github.com/user-attachments/assets/39dba62c-0380-473d-984b-1f677bb0415c)
+
 **9: Data Monitoring**
 
 **Tools:** AWS CloudWatch and AWS CloudTrail
 
 Real-Time Monitoring, Enhanced Security Monitoring, Historical Data Analysis conducted.
+
+![image](https://github.com/user-attachments/assets/52a85f62-0c17-45df-b87d-44731b8f2b27)
 
 ## **Tools and Techniques**
 
