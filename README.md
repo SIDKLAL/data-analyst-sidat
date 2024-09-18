@@ -64,6 +64,8 @@ To evaluate the property tax dataset, four types of analytical questions were fo
 
 **Report Year:** The year in which this data was reported
 
+![image](https://github.com/user-attachments/assets/1a4d5faa-e205-4695-863f-1933dc4f74ff)
+
 ## **Methodology** 
 
 **1: Data Storage Design**
@@ -128,19 +130,11 @@ Extracted refined data from AWS Athena in CSV format.
 
 Visualization: Used Excel to create a pie chart, representing different property zoning types.
 
-![image](https://github.com/user-attachments/assets/cd43c588-b945-4ff3-aa84-4185aff43116)
+![Web server screenshot cloud assignment](https://github.com/user-attachments/assets/4b55ce49-d8ed-4754-8fb3-8c77126b7959)
 
-**6: Data Publishing**
+ 
 
-**General Server Setup:** Used EC2 to create a general server for internal team access.
-
-![image](https://github.com/user-attachments/assets/af5029db-afd2-4a1f-b167-8cc62f7814c1)
-
-**Web Server Setup:** Created a web server using an EC2 instance to publish data externally.
-
-![image](https://github.com/user-attachments/assets/3ca711d9-67d0-447f-89cc-dee8d4cefaa5)
-
-**7: Data Protection**
+**6: Data Protection**
 
 **Tool:** AWS KMS (Key Management Services)
 
@@ -149,13 +143,21 @@ Provided protection to the Dataset 'Property Tax Records" to provide access only
 To avoid accidental data deletion and multiple region accessbility, S3 Versioning and Cross-Region Replication is enabled.
 
 
-**8: Data Monitoring**
+**7: Data Monitoring**
 
 **Tools:** AWS CloudWatch and AWS CloudTrail
 
 Real-Time Monitoring, Enhanced Security Monitoring, Historical Data Analysis conducted.
 
 ![image](https://github.com/user-attachments/assets/52a85f62-0c17-45df-b87d-44731b8f2b27)
+
+## **Data Insights and Findings**
+
+**Zoning Classifications:** Properties evaluated in both years were mostly being used as commercial properties.
+
+## **Recommendation**
+
+
 
 ## **Tools and Techniques**
 
